@@ -78,7 +78,7 @@
       "executor": "@nx/web:file-server",
       "options": {
         "buildTarget": "msb-test-seo:build",
-        "staticFilePath": "dist/msb-test-seo",
+        "staticFilePath": "dist/msb-test-seo/browser",
         "spa": true
       }
     }
