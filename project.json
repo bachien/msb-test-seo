@@ -56,10 +56,10 @@
           "buildTarget": "msb-test-seo:build:production"
         },
         "development": {
-          "buildTarget": "msb-test-seo:build:development"
+          "buildTarget": "msb-test-seo:build:production"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "production"
     },
     "extract-i18n": {
       "executor": "@angular/build:extract-i18n",
