@@ -7,7 +7,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Just for test SEO. Author is Chris" />
   <meta name="author" content="Chris" />
-  <link rel="icon" href="public/msb-logo-title.svg" />
+
+  <!-- Cho phép index -->
+  <meta name="robots" content="index, follow" />
+  <!-- Canonical: đảm bảo 1 URL chuẩn -->
+  <link rel="canonical" href="https://msb-test-seo.vercel.app/" />
+
+  <!-- Favicon: ưu tiên SVG, có PNG/ICO fallback -->
+  <link rel="icon" href="public/msb-logo-title.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+
+  <!-- Open Graph (chia sẻ mạng xã hội) -->
+  <meta property="og:title" content="Test SEO MSB" />
+  <meta property="og:description" content="Just for test SEO. Author is Chris" />
+  <meta property="og:url" content="https://msb-test-seo.vercel.app/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card (tùy chọn) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Test SEO MSB" />
+  <meta name="twitter:description" content="Just for test SEO. Author is Chris" />
+
+  <!-- Structured Data tối thiểu -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Test SEO MSB",
+      "url": "https://msb-test-seo.vercel.app/"
+    }
+  </script>
 </head>
 <body>
 <app-root></app-root>
