@@ -6,15 +6,14 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
     <div>
-      <h1>Test SEO MSB. Just for test SEO.</h1>
+      <h1> SEO MSB. Digibank Chanel</h1>
       <h3>Hello, I'm Chris</h3>
-      <div>Author is Chris.</div>
+      <div>Author is Chris | phibachien.</div>
       <div>
-        MSB Business Banking | Digibank Chanel | Chris | MSB | SMO | Chienpb |
-        msb-test-seo
+        MSB Business Banking | Digibank Chanel | Chris | MSB | SMO | Chienpb
       </div>
       <div>This is a web created by Angular Nx.</div>
-      <div>tag: msb-test-seo</div>
+      <div>tag: msb-test-seo, phibachien, digibank chanel</div>
     </div>
   `,
   styles: [],
