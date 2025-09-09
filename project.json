@@ -41,6 +41,16 @@
             "input": "assets",
             "glob": "favicon-192.png",
             "output": "."
+          },
+          {
+            "input": "assets",
+            "glob": "robots.txt",
+            "output": "."
+          },
+          {
+            "input": "assets",
+            "glob": "sitemap.xml",
+            "output": "."
           }
         ],
         "styles": ["./src/styles.scss"]
